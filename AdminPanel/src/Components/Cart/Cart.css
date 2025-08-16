@@ -1,0 +1,110 @@
+body{
+    color: white;
+    font-family: sans-serif;
+}
+.cart-container{
+    background-color: white;
+    max-width: 1200px;
+    padding: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 0 auto;
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.content{
+    border: 1px solid blue;
+    width: 350px ;
+    height: auto;
+    box-shadow: 2px 3px 5px rgb(61, 61, 224);
+    border-radius: 10px;
+    padding: 20px;
+    transition: all ease-in 0.3s;
+}
+.content:hover{
+    transform: translateY(-3px);
+    transition: 0.36s;
+    cursor: pointer;
+    border-color: rgb(50, 50, 139);
+}
+.content img {
+    width: 250px;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+    object-fit: contain;
+    object-position: center;
+   
+}
+.product-details{
+    text-align: start;
+     padding: 0;
+     margin: 0 !important;
+}
+.product-details h2{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    font-family: Arial, sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.product-details{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(20, 18, 18);
+
+}
+.old{
+    font-size: 18px;
+    display: block;
+    color: grey;
+    text-decoration: line-through;
+}
+.buttons{
+    display: flex;
+}
+.buttons button{
+    border: none;
+    border: none;
+    width: 40px;
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    height: 40px;
+    cursor: pointer;
+    margin: 0px 20px;
+}
+.decrease{
+    background-color: rgb(168, 166, 166) !important;
+}
+.buttons p{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.content button{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: orange;
+    margin-top: 20px;
+    color: white;
+    transition: all ease-in-out 0.3s;
+}
+.content button:hover{
+    transform: translateY(-3px);
+    transition: 0.36s;
+    background-color: rgb(224, 146, 117);
+    cursor: pointer;
+}

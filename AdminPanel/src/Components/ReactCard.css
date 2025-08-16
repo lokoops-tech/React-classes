@@ -1,0 +1,50 @@
+body{
+    background-color: whitesmoke;
+    font-family: arial, sans-serif;
+}
+.card{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    width: 400px;
+    margin: 30px auto;
+    box-shadow: 5px 5px 1px rgb(59, 59, 59);
+    padding: 20px;
+
+}
+.card-img{
+    width: 60%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.card-title{
+    color: black;
+    font-size: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.card-text{
+    font-size: 18px;
+    color:grey;
+    font-weight: 500;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+}
+.call-btn{
+    border: none;
+    border-radius: 50px;
+    padding: 9px 10px;
+    background-color: orange;
+    color: white;
+    transition: 0.3s ease-in;
+    font-size: 19px;
+}
+.call-btn:hover{
+    cursor: pointer;
+    transform: scale(1.07);
+    transition: 0.38s;
+}

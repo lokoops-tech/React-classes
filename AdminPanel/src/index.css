@@ -1,0 +1,262 @@
+body{
+    background-color: black;
+}
+.true{
+    font-size: 2em;
+    color:white;
+    background-color: green;
+    margin: 0;
+    padding: 9px 10px;
+    border-radius: 10px;
+}
+.false{
+    font-size: 2em;
+    color:white;
+    background-color: red;
+    margin: 0;
+    padding: 9px 10px;
+    border-radius: 10px;
+}
+.login{
+    background-color: rgb(206, 129, 42);
+    width: auto;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.login-area{
+    background-color: white;
+    box-shadow: 1px 2px 3px rgb(95, 93, 93);
+    border-radius: 10px;
+    color: black;
+    justify-content: center;
+    text-align: center;
+
+    width: 600px;
+    margin: 60px auto;
+    height: 60vh;
+
+}
+.login-area input{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+    outline: none;
+    border: none;
+    background-color: rgb(236, 230, 228);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.login-area label{
+font-size: 18px;
+font-family: 'Times New Roman', Times, serif;
+margin-bottom: 20px !important;
+
+
+}
+.login-btn{
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    background-color: blue;
+    color: whitesmoke;
+    border-radius: 50px;
+    font-size: 20px;
+    width: 50%;
+}
+.login-btn:hover{
+ cursor: pointer;
+ background-color: rgb(6, 6, 124);
+ transition: 0.3s ease-in;
+transform: scaley(1.1);
+}
+.terms{
+    display: flex;
+}
+.check{
+    display: block;
+}
+.counter{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 6px beige;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    margin: 0 auto;
+    height: auto;
+  
+}
+.results button{
+    border: none;
+    outline: none;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 50px;
+    width: 150px;
+    font-size: 20px;
+    margin: 10px 1px;
+    color: whitesmoke;
+    text-transform: capitalize;
+    transition: all ease-in-out 0.3s;
+    text-align: center;
+}
+.results button:hover{
+    cursor: pointer;
+    transform: scaleY(1.1);
+    transition: 0.36s;
+}
+.count{
+text-align: center;
+font-size: 10em;
+
+color: orangered;
+   
+}
+.increase{
+    background-color: green;
+}
+.decrease{
+    background-color: blue;
+}
+.reset{
+    background-color: red;
+}
+.onchange{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px beige;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 500px;
+    margin: 60px auto;
+    color: black;
+    padding: 20px  30px;
+    height: auto;
+}
+.onchange input{
+ border: none;
+ outline: none;
+ background-color: rgb(209, 212, 214);
+ width: 100%;
+ border-radius: 10px;
+ margin: auto;
+ padding: 15px;
+}
+.onchange p{
+    text-align: start;
+    font-size: 20px;
+    font-size: 4rem;
+
+}
+.name{
+    color: green;
+    font-size: 4rem;
+    font-weight: bold;   
+}
+.color-area{
+    background-color: white;
+    color: black;
+    height: 50vh;
+    max-width: 300px;
+    justify-content: center;
+    margin: 70px auto;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+
+}
+.color-area input{
+    height: 200px;
+    width: 200px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+}
+
+.login-container{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+.user-form{
+background-color: white;
+ color: black;
+ text-align: center;
+ justify-content: center;
+ max-width: 600px;
+display: flex;
+margin: 100px auto;
+flex-direction: column;
+border-radius: 10px;
+box-shadow: 2px 4px 1px rgb(163, 163, 163);
+padding: 20px;
+
+}
+.user-input{
+    display: flex;
+    flex-direction: column;
+    margin: 2px;
+    padding: 10px;
+}
+.user-input label{
+    color: rgb(112, 111, 111);
+    text-align: start;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 19px;
+
+}
+.user-input input{
+    padding: 20px 20px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(244, 245, 247);
+}
+.user-input button{
+    margin-top: 10px;
+    padding: 10px;
+    align-items: center;
+    color: white;
+    background-color: blue;
+    transition: all ease-in-out 0.3s;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.user-input button:hover{
+    cursor: pointer;
+    background-color: darkblue;
+    transition: 0.36s;
+    transform: scaleY(1.1);
+}
+.loggedin-users{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  
+}
+.users{
+      border: 2px solid white;
+      width: 600px;
+      margin: 9px auto;
+      text-align: start;
+      display: flex;
+      border-radius: 10px;
+      flex-direction: column;
+      padding: 10px 20px;
+      
+}
