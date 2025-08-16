@@ -1,5 +1,5 @@
 import { useState } from "react";
-import watch from '../../assets/Watch-2.webp'
+// import watch from '../../assets/Watch-2.webp'
 import './Cart.css'
 const Cart = ()=>{
     const [cartItems, setCartItems]= useState(0);
